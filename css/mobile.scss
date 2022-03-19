@@ -1,0 +1,176 @@
+@media (max-width: 768px){
+
+    .menu strong {
+        font-size: 20px;
+    }
+
+    .menu p {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .menu a {
+        font-size: 11px;
+    }
+
+
+    div h1 {
+        
+        font-size: 25px;
+    }
+
+    .conteudo{
+
+        .circulo {
+
+            width: 80px;
+            height: 80px;
+            margin-left: 20px;
+            margin-top: 14px;       
+        
+    
+            img{
+                width: 30px;
+            }
+            
+            h1 {
+                font-size: 20px;
+            }
+        }
+
+        div h1{ 
+   
+            background-color: var(--pink);
+            padding: 5%;
+            margin-bottom: 30px;
+            font-size: 26px;
+        
+        }
+    }
+    
+    .foto {
+        
+        padding-right: 20px;
+        
+        span{
+
+            font-family: Helveticath;
+            font-size: 15px;
+            font-weight: 100;
+    
+        }
+    }
+
+    main .campanha{
+
+        font-size: 40px;
+     
+        
+    }
+
+} 
+
+@media (max-width: 655px){
+
+    .cabecalho { 
+        
+        h2{
+            font-size: 14px;
+        }   
+
+        div > p{
+            font-size: 8px;
+        }
+
+    }
+
+    .conteudo{
+
+        .circulo{
+
+            
+            width: 60px;
+            height: 60px;
+            margin-left: 14px;
+            margin-top: 20px;       
+        
+    
+            img{
+                width: 24px;
+            }
+            
+            
+        }
+
+        div h1 { 
+            padding: 25px;
+            padding-left: 75px;
+            margin-bottom: 30px;
+            font-size: 19px;
+            text-align: right;            
+        }
+
+        .incentive{
+            flex-direction: column;
+
+            img{
+                margin-top: 25px;
+            }
+        }
+
+
+
+    
+    }
+
+
+    .menu{
+
+        nav{  
+            display: flex;
+            position: absolute;
+            width: 170px;
+            height:160px;
+            background: var(--menu);
+            top: 90px;
+            right: 0;
+            text-align: center;
+            line-height: 25px;
+            //transition: all .5s;
+            flex-direction: column;
+                      
+        
+        }
+        .checkbtn {          
+                
+            display: block; 
+                
+        }
+        
+        #check:checked ~ nav {
+
+            //transform: translateX(300px);
+            top: -200px;
+
+        }
+
+        p {
+            font-size: 13px;
+        }
+
+        strong{
+            font-size: 17px;
+        }
+    }
+
+    main .campanha{
+
+        font-size: 25px;     
+        
+    }
+
+    .foto{
+        
+        min-height: 55vh;
+    }
+}
